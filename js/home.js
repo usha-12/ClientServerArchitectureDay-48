@@ -38,6 +38,7 @@ const getElem = document.querySelector("#get_service");
         postElem.textContent = "New user Data: "+responseTest;
     })
     .catch(error => {
+        
         postElem.textContent = "POST Error Status: "+ JSON.stringify(error);
     });
     
